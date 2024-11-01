@@ -1,0 +1,22 @@
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Asia/Kolkata
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./homepage-data:/config
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.homepage.rule=Host(`apps.vikassaini.info`)"
+      - "traefik.http.routers.homepage.entrypoints=web"
+      - "traefik.http.services.homepage.loadbalancer.server.port=3000"
+      - "traefik.http.routers.homepage.service=homepage"
+    networks:
+      - cluster_default_network
+
+networks:
+  cluster_default_network:
+    external: true
