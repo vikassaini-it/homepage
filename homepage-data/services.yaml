@@ -19,8 +19,8 @@
     - Docker:
         icon: docker.svg
         widget:
-          type: docker-stats
-          socket: true
+          type: resources
+          docker: true
 
 - Applications:
     - SearXNG:
