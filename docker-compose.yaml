@@ -9,6 +9,7 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./homepage-data:/config
+    user: "root:root" 
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.homepage.rule=Host(`apps.vikassaini.info`)"
