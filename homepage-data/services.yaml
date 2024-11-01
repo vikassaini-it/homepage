@@ -14,5 +14,5 @@
         widget:
           type: portainer
           url: http://portainer:9000
-          env: 1
+          env: 2
           key: ptr_xxz/FKQlwH2L2WO3FnhYkindFOA6k8XwF73s7pOzFhI=
