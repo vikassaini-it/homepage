@@ -1,5 +1,6 @@
 services:
   homepage:
+    container_name: homepage
     image: ghcr.io/gethomepage/homepage:latest
     environment:
       - PUID=0
@@ -15,8 +16,8 @@ services:
       - "traefik.http.services.homepage.loadbalancer.server.port=3000"
       - "traefik.http.routers.homepage.service=homepage"
     networks:
-      - cluster_default_network
+      - traefik-public
 
 networks:
-  cluster_default_network:
+  traefik-public:
     external: true
