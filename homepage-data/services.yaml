@@ -1,17 +1,12 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
-
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
-
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+- Infrastructure:
+    - Traefik:
+        icon: traefik.svg
+        href: https://traefik.vikassaini.info/
+        description: pve1
+        widget:
+            type: traefik
+            url: http://127.0.0.1:8080
+            node: xing-01
