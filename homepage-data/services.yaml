@@ -13,6 +13,6 @@
         href: https://portainer.vikassaini.info/
         widget:
           type: portainer
-          url: https://portainer.9000
+          url: http://portainer:9000
           env: 1
           key: ptr_xxz/FKQlwH2L2WO3FnhYkindFOA6k8XwF73s7pOzFhI=
