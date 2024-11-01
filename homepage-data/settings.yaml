@@ -18,5 +18,5 @@ providers:
     discovery: true
     showStats: true
 
-widgets:
-  - type: system-stats
+server-docker:
+  socket: /var/run/docker.sock

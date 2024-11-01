@@ -25,5 +25,6 @@
 
 - Applications:
     - SearXNG:
+        statusStyle: "dot"
         icon: searxng.png
         href: https://searxng.vikassaini.info/
