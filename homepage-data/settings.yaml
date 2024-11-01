@@ -13,8 +13,11 @@ background:
 providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
-  server-docker:
-    socket: /var/run/docker.sock
+  docker:
+    enabled: true
+    discovery: true
+    showStats: true
+    server: server-docker  # Reference to the services section
 
 services:
   server-docker:          # Define Docker socket configuration here
