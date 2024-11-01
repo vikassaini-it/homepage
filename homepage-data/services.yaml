@@ -19,7 +19,7 @@
     - Docker:
         icon: docker.svg
         widget:
-          type: docker
+          type: dockerstats
           socket: true
 
 - Applications:
