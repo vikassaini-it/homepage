@@ -15,6 +15,7 @@ services:
       - "traefik.http.routers.homepage.entrypoints=web"
       - "traefik.http.services.homepage.loadbalancer.server.port=3000"
       - "traefik.http.routers.homepage.service=homepage"
+      - "traefik.http.routers.searxng.middlewares=auth-middleware"
       - "homepage.group=Applications"
       - "homepage.name=Homepage"
       - "homepage.icon=homepage.png"
