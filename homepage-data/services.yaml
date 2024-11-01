@@ -5,6 +5,7 @@
     - Traefik:
         icon: traefik.svg
         href: https://traefik.vikassaini.info/
+        statusStyle: "dot"
         widget:
           type: traefik
           url: http://traefik:8080
