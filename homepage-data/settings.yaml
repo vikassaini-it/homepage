@@ -1,6 +1,6 @@
 # https://gethomepage.dev/latest/configs/settings
 
-title: My Awesome Homepage 
+title: My Awesome Homepage
 theme: dark # <----- add this line
 color: slate # <----- add this line
 background:
@@ -14,9 +14,8 @@ providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
   docker:
-    enabled: true 
+    enabled: true
     discovery: true
     showStats: true
     server-docker:
       socket: /var/run/docker.sock
-
