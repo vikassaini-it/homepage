@@ -17,4 +17,6 @@ providers:
     enabled: true
     discovery: true
     showStats: true
-    server: unix:///var/run/docker.sock
+
+server:
+  socket: /var/run/docker.sock
