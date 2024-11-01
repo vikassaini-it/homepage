@@ -16,7 +16,8 @@ providers:
   server-docker:
     socket: /var/run/docker.sock
 
-server-docker:
-  socket: /var/run/docker.sock
+services:
+  server-docker:          # Define Docker socket configuration here
+    socket: /var/run/docker.sock
 
 
