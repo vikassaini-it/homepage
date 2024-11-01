@@ -17,7 +17,7 @@ services:
       - "traefik.http.routers.homepage.service=homepage"
       - "homepage.group=Applications"
       - "homepage.name=Homepage"
-      - "homepage.icon=home.png"
+      - "homepage.icon=homepage.png"
       - "homepage.href=https://apps.vikassaini.info"
       - "homepage.description=Homepage dashboard"
     networks:
