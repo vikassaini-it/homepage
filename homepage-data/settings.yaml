@@ -1,6 +1,6 @@
 # https://gethomepage.dev/latest/configs/settings
 
-title: My Awesome Homepage
+title: Homepage
 theme: dark # <----- add this line
 color: slate # <----- add this line
 background:
