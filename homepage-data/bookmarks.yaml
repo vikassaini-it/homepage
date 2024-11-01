@@ -1,0 +1,158 @@
+- Work:
+    - Facctum:
+        - icon: mdi-web-#1e7ee6
+          abbr: FC
+          href: https://www.facctum.com
+          description: Facctum FCRM
+    - Datavium:
+        - icon: mdi-web-#e3327f
+          abbr: DV
+          href: https://datavium.com
+          description: Abinitio
+    - RapidAML:
+        - icon: mdi-web-#e032e3
+          abbr: DV
+          href: https://rapidaml.com
+          description: AML
+    - MS apps:
+        - icon: microsoft.png
+          abbr: AL
+          href: https://myapplications.microsoft.com
+          description: Microsoft apps dashboard
+    - AWS:
+        - icon: aws.png
+          abbr: AW
+          href: https://facctum.awsapps.com/start/#/
+          description: AWS console dashboard
+    - Github:
+        - icon: github.png
+          abbr: GH
+          href: https://github.com/facctum-core
+          description: Github
+    - Grafana:
+        - icon: grafana.png
+          abbr: GF
+          href: https://monitoring-saas.facctum.com/grafana/?orgId=1
+          description: Grafana monitoring
+    - Jenkins:
+        - icon: jenkins.png
+          abbr: JK
+          href: http://jenkins-india.facctum.ai
+          description: Jenkins CI/CD
+    - Sharepoint:
+        - icon: microsoft-sharepoint.png
+          abbr: SP
+          href: https://facctumit.sharepoint.com
+          description: Facctum sharepoint
+    - Zoho:
+        - icon: zohomail.png
+          abbr: ZH
+          href: https://peopleplus.zoho.in/facctum/zp
+          description: Facctum zoho
+
+- Development:
+    - Github:
+        - icon: oracle.png
+          abbr: OC
+          href: https://cloud.oracle.com/compute/instances?region=ap-mumbai-1
+          description: Oracle cloud
+    - ChatGPT:
+        - icon: chatgpt.png
+          abbr: CG
+          href: https://chatgpt.com
+          description: AI/ML
+    - Claude:
+        - abbr: CA
+          href: http://claude.ai
+          description: AI/ML
+    - Gemini:
+        - abbr: CA
+          href: https://gemini.google.com/app
+          description: AI/ML
+    - Cloudflare:
+        - icon: cloudflare.png
+          abbr: OC
+          href: http://cloudflare.com
+          description: Dashboard
+    - CNCF:
+        - icon: cncf.png
+          abbr: CN
+          href: https://landscape.cncf.io
+          description: Dashboard
+    - Traefik:
+        - icon: traefik.png
+          abbr: TR
+          href: https://traefik.vikassaini.info/
+          description: Dashboard
+    - Portainer:
+        - icon: portainer.png
+          abbr: PT
+          href: https://portainer.vikassaini.info/
+          description: Dashboard
+    - Searxng:
+        - icon: searxng.png
+          abbr: SX
+          href: http://searxng.vikassaini.info
+          description: Dashboard
+    - Github:
+        - icon: github.png
+          abbr: GH
+          href: https://github.com/vikassaini-it
+          description: Personal github
+    - Bolt.new:
+        - icon: mdi-lightning-bolt-#4764e6
+          abbr: BN
+          href: https://bolt.new
+          description: Bolt.new AI
+    - RoutineHub:
+        - icon: mdi-web-#000000
+          abbr: RH
+          href: https://routinehub.co
+          description: Apple shortcuts
+
+- Learning:
+    - LeetCode:
+        - abbr: LC
+          href: https://leetcode.com
+          description: Leetcode coding
+    - Udemy:
+        - icon: udemy.png
+          abbr: LC
+          href: https://www.udemy.com
+          description: Videos
+
+- Social:
+    - Facebook:
+        - icon: facebook.png
+          abbr: FB
+          href: https://facebook.com/
+    - LinkedIn:
+        - icon: linkedin.png
+          abbr: LI
+          href: https://linkedin.com/
+    - Reddit:
+        - icon: reddit.png
+          abbr: RE
+          href: https://reddit.com/
+
+- Entertainment:
+    - YouTube:
+        - icon: youtube.png
+          abbr: YT
+          href: https://youtube.com/
+    - Netflix:
+        - icon: netflix.png
+          abbr: NF
+          href: https://netflix.com/
+    - Prime:
+        - icon: prime-video.png
+          abbr: AP
+          href: https://www.primevideo.com
+    - Jio:
+        - icon: jio.png
+          abbr: JI
+          href: https://www.jiocinema.com
+    - Hotstar:
+        - icon: disney-plus.png
+          abbr: HS
+          href: https://www.hotstar.com
