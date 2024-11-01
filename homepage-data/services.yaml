@@ -20,7 +20,7 @@
         icon: docker.svg
         widget:
           type: docker
-          url: unix:///var/run/docker.sock
+          socket: true
 
 - Applications:
     - SearXNG:
