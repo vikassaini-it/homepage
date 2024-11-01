@@ -16,3 +16,7 @@ providers:
   docker:
     enabled: true 
     discovery: true
+    showStats: true
+
+widgets:
+  - type: system-stats
