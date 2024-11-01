@@ -17,6 +17,6 @@ providers:
     enabled: true 
     discovery: true
     showStats: true
+    server-docker:
+      socket: /var/run/docker.sock
 
-server-docker:
-  socket: /var/run/docker.sock
