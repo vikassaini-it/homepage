@@ -5,7 +5,14 @@
     - Traefik:
         icon: traefik.svg
         href: https://traefik.vikassaini.info/
-        description: pve1
         widget:
-            type: traefik
-            url: http://traefik:8080
+          type: traefik
+          url: http://traefik:8080
+    - Portainer:
+        icon: portainer.svg
+        href: https://portainer.vikassaini.info/
+        widget:
+          type: portainer
+          url: https://portainer.9000
+          env: 1
+          key: ptr_xxz/FKQlwH2L2WO3FnhYkindFOA6k8XwF73s7pOzFhI=
