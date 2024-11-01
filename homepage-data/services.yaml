@@ -16,7 +16,7 @@
           url: http://portainer:9000
           env: 2
           key: ptr_xxz/FKQlwH2L2WO3FnhYkindFOA6k8XwF73s7pOzFhI=
-	- Docker:
+    - Docker:
         icon: docker.svg
         widget:
           type: docker
