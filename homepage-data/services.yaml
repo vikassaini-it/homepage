@@ -22,3 +22,4 @@
     - SearXNG:
         icon: searxng.png
         href: https://searxng.vikassaini.info/
+        server: server-docker
