@@ -3,9 +3,8 @@ services:
     container_name: homepage
     image: ghcr.io/gethomepage/homepage:latest
     environment:
-      - PUID=0
-      - PGID=0
       - TZ=Asia/Kolkata
+      - LOG_LEVEL=debug
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./homepage-data:/config
